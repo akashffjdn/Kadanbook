@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!--
+    Native splash icon (cold start, before JS bundle loads).
+    Export to splash-icon.png. Background is #000000 (set in app.json expo-splash-screen plugin).
+  -->
+  <defs>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FF6B00" />
+      <stop offset="1" stop-color="#FF8C38" />
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FF6B00" stop-opacity="0.35" />
+      <stop offset="1" stop-color="#FF6B00" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Soft brand halo behind the mark -->
+  <circle cx="200" cy="200" r="200" fill="url(#glow)" />
+
+  <!-- 200×200 brand tile centered, continuous corners -->
+  <g transform="translate(100, 100)">
+    <rect width="200" height="200" rx="52" ry="52" fill="url(#brand)" />
+    <g stroke="#FFFFFF" stroke-width="16" stroke-linecap="round" fill="none">
+      <line x1="56"  y1="52"  x2="56"  y2="140" />
+      <line x1="84"  y1="52"  x2="84"  y2="140" />
+      <line x1="112" y1="52"  x2="112" y2="140" />
+      <line x1="140" y1="52"  x2="140" y2="140" />
+      <line x1="44"  y1="140" x2="156" y2="52"  />
+    </g>
+  </g>
+</svg>

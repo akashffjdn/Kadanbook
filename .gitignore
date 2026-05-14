@@ -1,0 +1,41 @@
+# OSX
+.DS_Store
+
+# Node
+node_modules/
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native
+android/
+ios/
+*.orig.*
+
+# Metro
+.metro-health-check*
+
+# Debug
+*.log
+*.lock
+
+# Local env
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+
+# Testing
+coverage/
+
+# OS
+Thumbs.db
