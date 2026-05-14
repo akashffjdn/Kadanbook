@@ -38,7 +38,7 @@ export function LogoWordmark({ size = 'md', tagline, stacked = false }: LogoWord
         { gap: stacked ? dims.gap : dims.gap * 1.2 },
       ]}
     >
-      <LogoMark size={dims.mark} radiusRatio={dims.radius} flat={dims.mark < 24} />
+      <LogoMark size={dims.mark} radiusRatio={dims.radius} />
       <View style={stacked ? styles.centerText : undefined}>
         <Text
           variant="title"
