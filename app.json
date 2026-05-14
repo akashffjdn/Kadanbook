@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "KadanBook",
-    "slug": "kadanbook",
+    "slug": "kadan-book",
     "version": "1.0.0",
     "orientation": "portrait",
     "scheme": "kadanbook",
@@ -59,7 +59,11 @@
     "extra": {
       "router": {
         "origin": false
+      },
+      "eas": {
+        "projectId": "1c6f37b2-5ef3-4f6c-94bf-3a5de55a9796"
       }
-    }
+    },
+    "owner": "akash45678"
   }
 }
