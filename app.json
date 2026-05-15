@@ -44,13 +44,7 @@
       "expo-router",
       "expo-font",
       "expo-secure-store",
-      [
-        "expo-splash-screen",
-        {
-          "backgroundColor": "#000000",
-          "imageWidth": 200
-        }
-      ],
+      "expo-splash-screen",
       "expo-asset"
     ],
     "experiments": {
